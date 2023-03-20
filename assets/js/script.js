@@ -6,3 +6,11 @@ const distance = prompt('Inserisci la distanza che intendi percorrere in Km', '3
 
 let distanceCalc = distance * 0.21;
     console.log(distanceCalc);
+
+if (age < 18) {
+    console.log('sconto 20%');
+} else if (age > 65) {
+    console.log('sconto 40%');
+} else {
+    console.log('prezzo pieno');
+}
