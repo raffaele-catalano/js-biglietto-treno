@@ -8,10 +8,16 @@ e va applicato uno sconto del 40% per gli over 65.
 L’output del prezzo finale va messo fuori in *forma umana* (con massimo due decimali, per indicare centesimi sul prezzo).
 
 ## Steps Schedule
-- 1
-- 2
-- 3
-- 4
+- chiedere e salvare il `nome`;
+- chiedere e salvare il `cognome`;
+- chiedere e salvare l'`età`;
+- chiedere e salvare il `numero di chilometri` che intende percorrere;
+- calcolare il prezzo totale del viaggio `(0.21€ per Km)`;
+- ri-calcolare il prezzo totale in base allo `sconto` sull'età: `20% per i minorenni` **/** `40% per gli over 65`;
+- -ri-calcolare il prezzo totale arrotondato per eccesso e con massimo due decimali.
+
+Bonus:
+- stilare e formattare il tutto attraverso `.css` e `boostrap`.
 
 <!-- ## Install & Dependence
 - python
