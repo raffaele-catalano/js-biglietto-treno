@@ -12,7 +12,7 @@ let prezzoFinale = distance * 0.21;
 
 if (age < 18) {
     prezzoFinale = prezzoFinale * 0.8;
-} else if (age > 65) {
+} else if (age >= 65) {
     prezzoFinale = prezzoFinale * 0.6;
 }
 
